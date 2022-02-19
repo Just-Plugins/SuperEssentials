@@ -1,0 +1,7 @@
+name: PluginTemplate
+version: '${project.version}'
+main: me.justplugins.plugintemplate.PluginTemplate
+authors: [ Nathan, D1TZ ]
+description: ""
+website: justplugins.xyz
+api-version: 1.13
