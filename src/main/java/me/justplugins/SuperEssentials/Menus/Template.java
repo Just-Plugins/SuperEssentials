@@ -1,16 +1,16 @@
-package me.justplugins.plugintemplate.Menus;
+package me.justplugins.SuperEssentials.Menus;
 
 import com.songoda.core.compatibility.CompatibleMaterial;
 import com.songoda.core.compatibility.CompatibleSound;
 import com.songoda.core.gui.Gui;
 import com.songoda.core.gui.GuiUtils;
-import me.justplugins.plugintemplate.PluginTemplate;
-import me.justplugins.plugintemplate.Utils.Utils;
+import me.justplugins.SuperEssentials.Main;
+import me.justplugins.SuperEssentials.Utils.Utils;
 import org.bukkit.entity.Player;
 
 public class Template extends Gui {
-    final PluginTemplate plugin;
-    public Template(PluginTemplate plugin, Player player) {
+    final Main plugin;
+    public Template(Main plugin, Player player) {
         this.plugin = plugin;
 
         setTitle(Utils.Color("&8UltimateStaff"));

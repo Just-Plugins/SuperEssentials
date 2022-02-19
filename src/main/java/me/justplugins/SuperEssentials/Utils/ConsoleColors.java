@@ -1,4 +1,4 @@
-package me.justplugins.plugintemplate.Utils;
+package me.justplugins.SuperEssentials.Utils;
 
 public class ConsoleColors {
     public static final String RESET = "\033[0m";

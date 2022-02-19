@@ -1,4 +1,4 @@
-package me.justplugins.plugintemplate.Commands;
+package me.justplugins.SuperEssentials.Commands;
 
 import com.songoda.core.commands.AbstractCommand;
 import org.bukkit.command.CommandSender;

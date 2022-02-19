@@ -1,4 +1,4 @@
-package me.justplugins.plugintemplate.Utils;
+package me.justplugins.SuperEssentials.Utils;
 
 public enum Permissions {
 

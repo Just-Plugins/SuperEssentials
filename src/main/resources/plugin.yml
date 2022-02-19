@@ -1,7 +1,7 @@
-name: PluginTemplate
+name: Main
 version: '${project.version}'
-main: me.justplugins.plugintemplate.PluginTemplate
+main: me.justplugins.SuperEssentials.Main
 authors: [ Nathan, D1TZ ]
-description: ""
+description: "Everything basic needed for your Minecraft server"
 website: justplugins.xyz
 api-version: 1.13

@@ -1,4 +1,4 @@
-package me.justplugins.plugintemplate.Utils;
+package me.justplugins.SuperEssentials.Utils;
 
 import org.bukkit.ChatColor;
 
