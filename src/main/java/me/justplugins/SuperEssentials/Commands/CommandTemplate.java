@@ -6,17 +6,17 @@ import org.bukkit.command.CommandSender;
 import java.util.List;
 
 public class CommandTemplate extends AbstractCommand {
-    protected CommandTemplate(CommandType type, String... command) {
-        super(type, command);
+    protected CommandTemplate() {
+        super(CommandType.PLAYER_ONLY,true,"");
     }
 
     @Override
-    protected ReturnType runCommand(CommandSender commandSender, String... strings) {
+    protected ReturnType runCommand(CommandSender commandSender, String[] args) {
         return null;
     }
 
     @Override
-    protected List<String> onTab(CommandSender commandSender, String... strings) {
+    protected List<String> onTab(CommandSender commandSender, String[] args) {
         return null;
     }
 

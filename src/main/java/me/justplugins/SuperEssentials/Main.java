@@ -1,5 +1,11 @@
 package me.justplugins.SuperEssentials;
 
+import com.songoda.core.commands.CommandManager;
+import me.justplugins.SuperEssentials.Commands.FlyCommand;
+import me.justplugins.SuperEssentials.Commands.Gamemode.Adventure;
+import me.justplugins.SuperEssentials.Commands.Gamemode.Creative;
+import me.justplugins.SuperEssentials.Commands.Gamemode.Spectator;
+import me.justplugins.SuperEssentials.Commands.Gamemode.Survival;
 import me.justplugins.SuperEssentials.Utils.ConsoleColors;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -23,6 +29,14 @@ public final class Main extends JavaPlugin {
         getLogger().log(Level.INFO, color + pluginName + " || Loading Commands..." + ConsoleColors.RESET);
 
         // Commands
+
+        CommandManager commandManager = new CommandManager(this);
+        commandManager.setNoPermsMessage("");
+        commandManager.registerCommandDynamically(new FlyCommand());
+        commandManager.registerCommandDynamically(new Adventure());
+        commandManager.registerCommandDynamically(new Creative());
+        commandManager.registerCommandDynamically(new Spectator());
+        commandManager.registerCommandDynamically(new Survival());
 
 
         getLogger().log(Level.INFO, color + pluginName + " || Commands Done!" + ConsoleColors.RESET);

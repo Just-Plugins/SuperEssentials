@@ -48,7 +48,7 @@ public class Utils {
      * @return the prefix for the plugin
      */
     public static String Prefix() {
-        return Color("&6UltimateServerUtils &7| ");
+        return Color("&3SuperEssentials &7| ");
     }
 
 }
